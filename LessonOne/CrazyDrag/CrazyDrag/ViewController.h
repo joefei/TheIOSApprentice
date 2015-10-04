@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+//增加<UIAlertViewDelegate>表示ViewController是UIAlertView的代理
+@interface ViewController : UIViewController<UIAlertViewDelegate>
 
 
 @end
